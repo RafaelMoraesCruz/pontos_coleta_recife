@@ -15,5 +15,5 @@ with resumo:
     st.dataframe(RESUMO)
     
 with mapa:
-    st.subheader('Mapa de dos pontos da coleta seletiva')
+    st.subheader('Mapa de pontos da coleta seletiva em Recife')
     st_folium(mapa_recife_coleta_seletiva, width='100%')
