@@ -6,6 +6,12 @@ from urllib.request import urlopen
 import streamlit as st
 from streamlit_folium import st_folium
 
+st.set_page_config(
+   page_title="Coleta_Seletiva_Recife",
+   page_icon="🧊",
+   layout="wide",
+)
+
 fp = 'http://dados.recife.pe.gov.br/pt_BR/dataset/pontos-de-coleta-seletiva'
 soup = BeautifulSoup(urlopen(fp))    
 URL = soup.find_all('a', {'class': 'resource-url-analytics'})[0].get('href')
