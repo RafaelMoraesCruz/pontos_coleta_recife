@@ -19,7 +19,7 @@ with header:
     st.write(f'Estudo feito com o intuito de mostrar todos os pontos de coleta seletiva na cidade do Recife, com dados coletados diretamente do portal da prefeitura. Fonte: {URL}')
     
 with resumo:
-    st.subheader('Informções sobre os dados/planilha')
+    st.subheader('Informações sobre os dados/planilha')
     st.dataframe(RESUMO)
     
 with mapa:
