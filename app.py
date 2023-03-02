@@ -2,7 +2,11 @@ from utils import URL, mapa_recife_coleta_seletiva, RESUMO
 import streamlit as st
 from streamlit_folium import st_folium
 
-
+st.set_page_config(
+   page_title="Coleta_Seletiva_Recife",
+   page_icon="🧊",
+   layout="wide",
+)
 
 header = st.container()
 resumo = st.container()
