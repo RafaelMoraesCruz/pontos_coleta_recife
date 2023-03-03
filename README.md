@@ -12,7 +12,7 @@
 ├── utils.py
 ```
 
-## virtual environment and packages
+## Virtual environment and packages
 ```
 python3 -m venv venv-dash
 source venv-dash/bin/activate
